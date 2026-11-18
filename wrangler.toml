@@ -1,6 +1,6 @@
 name = "googlechecker"
 main = "dist/output/server/index.mjs"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-01-01"
 compatibility_flags = ["nodejs_compat"]
 
 [assets]
@@ -9,5 +9,5 @@ binding = "ASSETS"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "googlechecker-db"
+database_name = "<exact-name-from-d1-dashboard>"
 database_id = "b5ab07e2-6aaf-482a-a6ea-34bedff64e1b"
