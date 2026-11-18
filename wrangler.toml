@@ -1,0 +1,8 @@
+name = "googlechecker"
+main = "dist/output/server/index.mjs"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "dist/output/public"
+binding = "ASSETS"
