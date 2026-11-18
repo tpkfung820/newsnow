@@ -6,3 +6,8 @@ compatibility_flags = ["nodejs_compat"]
 [assets]
 directory = "dist/output/public"
 binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "googlechecker-db"
+database_id = "b5ab07e2-6aaf-482a-a6ea-34bedff64e1b"
